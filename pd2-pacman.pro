@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -25,16 +25,42 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        background.cpp \
+        blinky.cpp \
+        char.cpp \
+        clyde.cpp \
+        devil.cpp \
+        func.cpp \
+        game.cpp \
+        ghost.cpp \
+        inky.cpp \
         main.cpp \
-        mainwindow.cpp
+        pacman.cpp \
+        pinky.cpp \
+        show.cpp \
+        ui.cpp
 
 HEADERS += \
-        mainwindow.h
+    background.h \
+    blinky.h \
+    char.h \
+    clyde.h \
+    devil.h \
+    func.h \
+    game.h \
+    ghost.h \
+    inky.h \
+    pacman.h \
+    pinky.h \
+    show.h \
+    ui.h
 
-FORMS += \
-        mainwindow.ui
+FORMS +=
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    mrc.qrc

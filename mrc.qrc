@@ -1,0 +1,56 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="10">images/blinky0.png</file>
+        <file alias="11">images/blinky1.png</file>
+        <file alias="12">images/blinky2.png</file>
+        <file alias="13">images/blinky3.png</file>
+        <file alias="40">images/clyde0.png</file>
+        <file alias="41">images/clyde1.png</file>
+        <file alias="42">images/clyde2.png</file>
+        <file alias="43">images/clyde3.png</file>
+        <file alias="30">images/inky0.png</file>
+        <file alias="31">images/inky1.png</file>
+        <file alias="32">images/inky2.png</file>
+        <file alias="33">images/inky3.png</file>
+        <file alias="20">images/pinky0.png</file>
+        <file alias="21">images/pinky1.png</file>
+        <file alias="22">images/pinky2.png</file>
+        <file alias="23">images/pinky3.png</file>
+        <file alias="p0">images/pacman0.png</file>
+        <file alias="p1">images/pacman1.png</file>
+        <file alias="dot1">images/dot1.png</file>
+        <file alias="dot2">images/dot2.png</file>
+        <file alias="f0">images/f0.png</file>
+        <file alias="f1">images/f1.png</file>
+        <file alias="f2">images/f2.png</file>
+        <file alias="f3">images/f3.png</file>
+        <file alias="w0">images/w0.png</file>
+        <file alias="w1">images/w1.png</file>
+        <file alias="w2">images/w2.png</file>
+        <file alias="w3">images/w3.png</file>
+        <file alias="dot4">images/dot4.png</file>
+        <file alias="surprise">images/surprise.png</file>
+        <file alias="start">images/start.png</file>
+        <file alias="53">images/devil3.png</file>
+        <file alias="52">images/devil2.png</file>
+        <file alias="51">images/devil1.png</file>
+        <file alias="50">images/devil0.png</file>
+        <file alias="dead3">images/dead3.png</file>
+        <file alias="dead2">images/dead2.png</file>
+        <file alias="dead1">images/dead1.png</file>
+        <file alias="dead0">images/dead0.png</file>
+        <file alias="dot3">images/dot3.png</file>
+        <file alias="title1">images/title1.png</file>
+        <file alias="title0">images/title0.png</file>
+        <file alias="insert">images/insert_title.png</file>
+        <file alias="coin">images/coin.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file alias="eatghost">sounds/pacman_eatghost.wav</file>
+        <file alias="death">sounds/pacman_death.wav</file>
+        <file alias="start">sounds/pacman_beginning.wav</file>
+        <file alias="munch">sounds/pacman_munch.wav</file>
+        <file alias="chomp">sounds/pacman_chomp.wav</file>
+        <file alias="sd">sounds/sd.wav</file>
+    </qresource>
+</RCC>
